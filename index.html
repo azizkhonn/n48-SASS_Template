@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/page-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Your site name</title>
+
+    <title>MyProduct</title>
 </head>
+
 <body>
     <!-- Site Header start -->
     <header class="site-header">
         <div class="container">
+
             <div class="header">
-                <!-- ... -->
+
+                <div class="header__site-logo">
+                    <a href="./index.html">
+                        <img src="./images/site-logo.svg" alt="Site Logo" width="178" height="36">
+                    </a>
+                </div>
+
+                <nav class="header__navbar">
+                    <ul class="header__navbar-item">
+                        <li class="header__navbar-menu">
+                            <a href="#" class="header__navbar-links">Product</a>
+                        </li>
+                        <li class="header__navbar-menu">
+                            <a href="#" class="header__navbar-links">Customers</a>
+                        </li>
+                        <li class="header__navbar-menu">
+                            <a href="#" class="header__navbar-links">Pricing</a>
+                        </li>
+                        <li class="header__navbar-menu">
+                            <a href="#" class="header__navbar-links">Recources</a>
+                        </li>
+                    </ul>
+                    <div class="header__sign">
+                        <a href="#" class="header__sign-in-btn">Sign In</a>
+                        <a href="#" class="header__sign-up-btn">Sign Up</a>
+                    </div>
+                </nav>
+                <div class="hamburger-btn">
+                    <!-- <a class="hamburger" href="./images/hamburger-btn.svg"  style="width: 28px; height: 31px;"></a> -->
+                    <img src="./images/hamburger-btn.svg" alt="Hamburger btn" width="28" height="31">
+                </div>
             </div>
         </div>
     </header>
@@ -19,9 +54,37 @@
     <!-- Site Main start -->
     <main class="site-main">
         <section class="hero-section">
-            <div class="container">
+             <div class="container second-container">
                 <div class="hero">
-                    <!-- ... -->
+                    <div class="hero__wrapper">
+                        <div class="hero__title">
+                            <h1 class="hero__title-h1">
+                                Work at the speed
+                                of thought
+                            </h1>
+
+                        </div>
+
+                        <div class="hero__subtitle">
+                            <p class="hero__subtitle-p">
+                                Tools, tutorials, design and innovation experts, 
+                                all in one place! The most intuitive way to
+                                imagine your next user experience.
+                            </p>
+                        </div>
+                        <div class="hero__btns">
+                            <div class="hero__btn1">
+                                <a href="#" class="hero__get-started-btn">Get started</a>
+                            </div> 
+                            <div class="hero__btn2">
+                                <a href="#" class="hero__watch-the-video-btn"> <img class="play-vector" src="./images/play-vector.svg" alt="Play the video" width="20" height="17"> Watch the Video</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="hero__right-img">
+                    <img class="hero-img" src="./images/hero-img.png" alt="hero-img">
                 </div>
             </div>
         </section>
@@ -37,4 +100,5 @@
     </footer>
     <!-- Site Footer end -->
 </body>
+
 </html>
